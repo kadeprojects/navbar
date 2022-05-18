@@ -60,11 +60,6 @@ nav.open ul {
   color: #d9bffd;
 }
 
-nav.open ul {
-    opacity: 1;
-    height: auto;
-}
-
 .toggleButton:hover {
     background-color: #F29F05;
 }
