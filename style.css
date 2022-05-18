@@ -36,6 +36,39 @@ nav {
     justify-content: center;
 }
 
+nav ul {
+    transform: translateY(-200px);
+    transition: all 0.8s ease-out;
+}
+
+nav.open ul {
+    transform: translateY(0);
+    transition: all 0.8s ease-out;
+}
+
+.toggleButton{
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  height: 24px;
+  border: 1px solid #F29F05;
+  background-color: #D96704;
+}
+.toggleButton p{
+  justify-content: center;
+  transform: translate(0px,-18px);
+  color: #d9bffd;
+}
+
+nav.open ul {
+    opacity: 1;
+    height: auto;
+}
+
+.toggleButton:hover {
+    background-color: #F29F05;
+}
+
 nav a {
     text-decoration: none;
     /* paring! */
